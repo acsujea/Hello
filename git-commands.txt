@@ -1,3 +1,7 @@
+1.0 git global config
+    > git config --global user.name "Andy"
+    > git config --global user.email "andy@example.com"
+
 1.1 when working in a directory, if we want to put the directory into git version control, we can use:
     > git init
     this command will create a hidder ./git directory in the current directory
@@ -30,4 +34,14 @@
 1.8 use git log to see the change hisotry, use --summary option to see more information for each commit.
     > git log
 
+1.9 add a remote repository
+   > git remote add origin https://github.com/acsujea/Hello.git
 
+1.10 sync with remote
+   > git pull origin master
+
+1.11 push the local change in master to remote origin
+   > git push -u origin master
+   * origin: the repmote name
+   * master: the local branch name
+   * -u remember above parameters
