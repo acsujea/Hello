@@ -53,4 +53,14 @@
 1.13 see that is different in the stage
    > git diff --staged
    * staged: files that are ready to commit
+1.14 remove a file from the stage
+   > git reset <fileName>
+1.15 undo a file change back to its last commit
+   > git checkout -- <filename>
+1.16 branching out
+   > git branch <branchname>
+1.17 list all branches
+   > git branch -a
+1.18 switching to a branch
+   > git checkout <branchname>
 
