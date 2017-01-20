@@ -1,0 +1,33 @@
+1.1 when working in a directory, if we want to put the directory into git version control, we can use:
+    > git init
+    this command will create a hidder ./git directory in the current directory
+
+1.2 Checking the Status
+    > git status
+
+1.3 to let git track a file call octocat.txt in the current directory
+    > git add octocat.txt
+    * staged: Files are ready to be committed
+    * unstaged: Files with changes that have not been prepared to be committed
+    * untracked: Files are not tracked by Git yet. This usually indicates a newly created file.
+    * deleted: File has been deleted and is waiting to be removed from Git
+
+1.4 to track all the files in current directory
+    > git add -A .
+    * -A ensures even file deletions are included
+
+1.5 to unstaging or remove octocat.txt file from the staging area
+    > git reset octocat.txt
+    * Staging area: A place where we can group files togeter before commit them to git
+    * A commit is a snapshot of our repository. This way if we ever need to look back at the changes we have made (or if someone else does), we will see a nice timeline of all changes
+
+1.6 to move octocat.txt file from staging area to repository
+    > git commit -m "Add this file to the repository"
+
+1.7 use wildcard * to add all the files
+    > git add '*.txt'
+
+1.8 use git log to see the change hisotry, use --summary option to see more information for each commit.
+    > git log
+
+
