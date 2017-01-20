@@ -45,3 +45,12 @@
    * origin: the repmote name
    * master: the local branch name
    * -u remember above parameters
+
+1.12 see what is different from the last commit
+   > git diff HEAD
+   * HEAD is a pointer that points to the most recent commit
+
+1.13 see that is different in the stage
+   > git diff --staged
+   * staged: files that are ready to commit
+
