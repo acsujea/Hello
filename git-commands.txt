@@ -63,4 +63,16 @@
    > git branch -a
 1.18 switching to a branch
    > git checkout <branchname>
+1.19 merge branch with anther branch
+   > git merge <anotherbranch>
+   * this is to take the change in <anothebranch> and merge into this branch
+1.20 create a new branch and switch to it at the same time
+   > git checkout -b new_branch
 
+1.21 remove all files from the disk and stage the removal
+   > git rm '*.*'
+   * manually delete a file doesn't remove it from the staging, so git rm always need to be used
+   * git commit to finally commit the delete
+   * git commit -a auto removes deleted files
+1.22 remove recursively folders and its files
+   > git rm -r the_folder
