@@ -76,3 +76,9 @@
    * git commit -a auto removes deleted files
 1.22 remove recursively folders and its files
    > git rm -r the_folder
+
+1.23 delete a branch
+   > git branch -d the_branch
+   * -d option doesn't delete the branch if the branch hasn't been merged
+   * use -D or -d -f option to force delete branch
+
