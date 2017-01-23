@@ -1,5 +1,5 @@
-# Hello git
-# Here is useful links:
+# Hello git! Here is useful links:
+
 # http://gitref.org/
 # http://rogerdudler.github.io/git-guide/
 # http://gitimmersion.com/
@@ -7,4 +7,4 @@
 # https://git-scm.com/book/en/v2
 # https://help.github.com/
 # http://think-like-a-git.net/
-
+# http://marklodato.github.io/visual-git-guide/index-en.html
